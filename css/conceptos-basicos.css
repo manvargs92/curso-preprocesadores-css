@@ -1,0 +1,62 @@
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector de etiqueta/elementos */
+p {
+  color: blue;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Arial, Helvetica;
+  color: black;
+}
+
+/* Selector anidado */
+span {
+  color: black;
+}
+p span {
+  color: red;
+}
+
+/* Selector de ID */
+#verde {
+  color: green;
+}
+
+/* Selector de clase */
+.morado {
+  color: purple;
+}
+
+/* Selector de hijos */
+p > span {
+  color: red;
+}
+
+/* Selector adyacente */
+h2 + h2 {
+  color: white;
+}
+
+/* Selector de atributos */
+input[type="number"] {
+  border: black;
+}
+input[type="email"] {
+  border: red;
+}
+
+/* Prioridad css */
+/* 
+!important = 1000000
+ID = 100
+Clase = 10
+Etiqueta = 1
+*/
